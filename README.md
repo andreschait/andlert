@@ -1,67 +1,45 @@
-[![GitHub version](https://badge.fury.io/gh/MohammadYounes%2FAlertifyJS.svg)](http://badge.fury.io/gh/MohammadYounes%2FAlertifyJS)
-[![NuGet version](https://badge.fury.io/nu/AlertifyJS.svg)](http://badge.fury.io/nu/AlertifyJS)
-[![npm version](https://badge.fury.io/js/alertifyjs.svg)](http://badge.fury.io/js/alertifyjs)
+[![build status](https://secure.travis-ci.org/andreschait/andlert.png)](http://travis-ci.org/andreschait/andlert)
 
-AndlertJS
-==========
+Alertify is an unobtrusive customizable JavaScript notification system.
 
-[![Join the chat at https://gitter.im/MohammadYounes/AlertifyJS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MohammadYounes/AlertifyJS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## Features
 
-AndlertJS is a javascript framework for developing pretty browser dialogs and notifications.
+* Fully customizable alert, confirm and prompt dialogs
+* Fully customizable unobtrusive notification system
+* Callback parameter handling both OK and Cancel button clicks
+* Chaining which allows queued dialogs
 
-###Install with [NuGet](https://www.nuget.org/packages/AndlertJS/)
+## Examples
 
-```
-Install-Package AlertifyJS
-```
+http://andreschait.github.com/andlert/
 
-###Install with [NPM](https://www.npmjs.com/package/andlertjs/)
+## Usage
 
-```
-npm install alertifyjs --save
-```
+See wiki [How to Use](http://github.com/andreschait/andlert/wiki/How-to-Use)
 
-Documentation
-==========
-Check out the interactive documentation at http://alertifyjs.com
+## Changeset
 
-[![alertifyjs-dialog](https://cloud.githubusercontent.com/assets/4712046/4170670/0d50b04c-3535-11e4-87a7-1ce62dd0d77e.png)](http://alertifyjs.com)
+See wiki [Changeset](http://github.com/andreschait/andlert/wiki/Changeset)
 
+## Contributing
 
-Browser support
-==========
-Last two versions.
+See wiki [Submitting a Pull Request](https://github.com/andreschait/alertify.js/wiki/Submitting-a-Pull-Request)
 
+## Where is it being tested?
 
+* Microsoft Internet Explorer 7+ (Standards Mode)
+* Google Chrome
+* Mozilla FireFox
+* Apple Safari
+* Opera
+* iOS
+* Android
 
-Running documentation locally
-==========
-* Clone the repo
-```
-git clone git@github.com:andreschait/andlert.git
-```
+## License
 
-* Install dev dependencies
-```
-npm update; npm install;
-```
+Alertify is licensed under MIT http://www.opensource.org/licenses/MIT
 
-* Build the project
-```
-grunt
-```
+### Copyright
 
-* Start documentation server
-```
-docpad run
-```
-* Open your browser to http://localhost:9778/
-
-Bugs & Questions
-==========
-Please review the guidelines for [contributing](https://github.com/andreschait/andlert/blob/master/CONTRIBUTING.md).
->You can fork this [codepen](http://codepen.io/anon/pen/raohK) or this [jsfiddle](http://jsfiddle.net/g2o52zq7/) to get started.
-
-
-------
-Contact: [contact@andres.co.il](mailto:contact@andres.co.il)
+Copyright (c) 2016, Andres Chait
+<contact@andres.co.il>, [@andreschait](http://twitter.com/andreschait)
