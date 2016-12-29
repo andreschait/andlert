@@ -1,6 +1,6 @@
 [![build status](https://secure.travis-ci.org/andreschait/andlert.png)](http://travis-ci.org/andreschait/andlert)
 
-Alertify is an unobtrusive customizable JavaScript notification system.
+Andlert is a javascript framework for creating pretty browser dialogs and notifications.
 
 ## Features
 
